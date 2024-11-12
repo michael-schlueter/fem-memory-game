@@ -6,12 +6,14 @@ export default {
   theme: {
   	colors: {
   		'bright-orange': '#FDA214',
+      'light-orange': '#FFB84A',
   		'light-gray-blue': '#BCCED9',
   		'dark-blue-gray': '#304859',
   		'dark-blue': '#152938',
   		'light-gray': '#F2F2F2',
   		'blue-gray': '#7191A5',
   		blue: '#6395B8',
+      gray: "#DFE7EC",
   		white: '#FCFCFC',
   		inherit: 'inherit',
   		transparent: 'transparent',
