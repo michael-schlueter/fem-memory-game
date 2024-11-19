@@ -27,8 +27,8 @@ export default function Button({
 
   const sizes = {
     small: "text-lg pt-[10px] md:pt-[13px] pb-[10px] md:pb-[14px]",
-    medium: "text-[1.625rem] pt-[10px] md:pt-[11px] pb-[10px] md:pb-[9px]",
-    large: "text-xl pt-3 md:pt-[13px] lg:pt-4 pb-[14px] lg:rounded-[35px]",
+    medium: "text-[1rem] md:text-[1.625rem] pt-[10px] md:pt-[11px] pb-[10px] md:pb-[9px] leading-5 md:leading-8",
+    large: "text-lg md:text-xl pt-3 md:pt-4 pb-[14px] lg:rounded-[35px] leading-[22px] md:leading-10",
   };
 
   const activeStyles = isActive ? "bg-dark-blue-gray pointer-events-none" : "";

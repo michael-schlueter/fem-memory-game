@@ -1,5 +1,11 @@
+import MemorySetup from "./components/MemorySetup";
+
 function App() {
-  return <p className="text-blue-700 text-4xl">Hello World</p>;
+  return (
+    <main>
+      <MemorySetup />
+    </main>
+  );
 }
 
 export default App;

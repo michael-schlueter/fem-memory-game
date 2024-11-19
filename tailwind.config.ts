@@ -20,9 +20,10 @@ export default {
   		current: 'currentColor'
   	},
   	fontSize: {
+		sm: '0.9375rem',
   		base: '1.125rem',
   		lg: '1.25rem',
-  		xl: '2ren',
+  		xl: '2rem',
   		'2xl': '2.75rem',
   		'3xl': '3rem',
   		'4xl': '3.75rem'
