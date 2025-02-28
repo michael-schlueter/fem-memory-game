@@ -1,7 +1,7 @@
 import { GameAction, GameState } from "@/lib/types";
 import { generateTiles } from "@/lib/utils";
 
-const initialState: GameState = {
+export const initialState: GameState = {
     screen: "setup",
     theme: "numbers",
     numPlayers: 1,
